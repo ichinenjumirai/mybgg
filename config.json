@@ -1,24 +1,18 @@
 {
     "project": {
-        "name": "mybgg",  // This is the name of your project. You can leave it as it is.
-        "title": ""  // This is the page title. If you leave this empty, a title will be
-                     // created from your BGG username.
+        "name": "mybgg",
+        "title": ""
     },
     "boardgamegeek": {
-        "user_name": "hiyou",  // The username on boardgamegeek that has your games
+        "user_name": "hiyou",
         "extra_params": {
-            "own": 1  // Here's the query that will be sent to BGG to get your games. A full list
-                      // of options can be found here:
-                      // https://lcosmin.github.io/boardgamegeek/modules.html#boardgamegeek.api.BGGClient.collection
+            "own": 1
         }
     },
     "algolia": {
-        "app_id": "DO83KZB9UQ",  // Your Algolia APP ID. When logged in, look at the top of the
-                                  // page which says: APPS > YOUR_ID_HERE
-        "api_key_search_only": "6e8acd694b0da3c6a58b7579ecb43ae7",  // Click "API Keys" in the menu to the left.
-                                                       // Use the "Search-Only API Key"!
-        "index_name": "bgghiyou"  // All your games will be stored in something called an "index".
-                                         // You can create and index by going to "Indices" in the menu to the left.
-                                         // Click to create a new index, and give it a name. Put the name you choose here.
+        "app_id": "DO83KZB9UQ",
+        "api_key_search_only": "6e8acd694b0da3c6a58b7579ecb43ae7",
+        "index_name": "bgghiyou",
+        "hits_per_page": 24
     }
 }
