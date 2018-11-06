@@ -5,7 +5,7 @@
                      // created from your BGG username.
     },
     "boardgamegeek": {
-        "user_name": "hidari0507",  // The username on boardgamegeek that has your games
+        "user_name": "hiyou",  // The username on boardgamegeek that has your games
         "extra_params": {
             "own": 1  // Here's the query that will be sent to BGG to get your games. A full list
                       // of options can be found here:
