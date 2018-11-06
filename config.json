@@ -1,7 +1,7 @@
 {
     "project": {
         "name": "mybgg",  // This is the name of your project. You can leave it as it is.
-        "hiyougame": ""  // This is the page title. If you leave this empty, a title will be
+        "title": ""  // This is the page title. If you leave this empty, a title will be
                      // created from your BGG username.
     },
     "boardgamegeek": {
